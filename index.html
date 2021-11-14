@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="/script.js" defer></script>
+	<title>Valute Converter</title>
+</head>
+
+<body>
+	<div class="main">
+		<div class="main-title">
+			<h1>Для начала конвертации сначала выберите валюту из списков</h1>
+		</div>
+		<div class="main-row">
+			<div class="main-inputs">
+				<div class="main-input">
+					<span class="span">Валюта</span>
+					<input type="text" class="input input--in">
+				</div>
+				<div class="main-input">
+					<span class="span">Валюта</span>
+					<input type="text" class="input input--out">
+				</div>
+			</div>
+			<div class="main-selects">
+				<div class="main-select__block">
+					<span>Переводимая валюта</span>
+					<select name="" id="select-in" class="select-in">
+						<option value="">Выберите валюту</option>
+						<option value="USD">USD</option>
+						<option value="EUR">EUR</option>
+						<option value="RUB">RUB</option>
+					</select>
+				</div>
+				<div class="main-select__block">
+					<span>В которую будем переводить</span>
+					<select name="" id="select-out" class="select-out">
+						<option value="">Выберите валюту</option>
+						<option value="USD">USD</option>
+						<option value="EUR">EUR</option>
+						<option value="RUB">RUB</option>
+					</select>
+				</div>
+			</div>
+			<button class="main-button">Конвертировать</button>
+		</div>
+	</div>
+</body>
+
+</html>
